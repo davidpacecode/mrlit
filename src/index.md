@@ -4,7 +4,24 @@
 layout: default
 ---
 
-# # TODO make these rotate among a few options
+<div x-data="{
+  messages: [
+    'Back at it!',
+    'You ready to learn about MRL IT?',
+    '...shouldn\'t you be paying attention to your meeting?? jk - what\'s up?',
+    'I got 99 prompts but the blank one below is not yet 1...'
+  ],
+  currentMessage: '',
+  getRandomMessage() {
+    const index = Math.floor(Math.random() * this.messages.length);
+    this.currentMessage = this.messages[index];
+  }
+}" x-init="getRandomMessage()">
+
+  <!-- Display the message -->
+  <h4 x-text="currentMessage"></h4>
+
+</div>
 
 <p><wa-button variant="brand" href="/willamette/style-guide">View the Willamette Style Guide</wa-button></p>
 

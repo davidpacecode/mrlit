@@ -17,6 +17,7 @@
     "read-cache": "^1.0.0"
   },
   "dependencies": {
+    "alpinejs": "^3.17.2",
     "willamette": "^0.10.5"
   }
 }
