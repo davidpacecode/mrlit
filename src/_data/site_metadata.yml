@@ -1,0 +1,11 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.metadata.title }}, {{ site.metadata.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.metadata.myvariable }}.
+
+title: MRL IT Agent
+tagline: The only way to learn more about MRL IT is to join MRL IT...
+email: david.pace@merck.com
+description: >-
+  This agent allows you to learn everything there is to know about MRL IT
