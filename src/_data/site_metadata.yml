@@ -4,8 +4,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: MRL IT Agent
+title: MRL IT, agent edition
 tagline: The only way to learn more about MRL IT is to join MRL IT...
-email: david.pace@merck.com
+email: mrlit@merck.com
 description: >-
   This agent allows you to learn everything there is to know about MRL IT

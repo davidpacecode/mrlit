@@ -39,13 +39,13 @@ module Shared
         description: metadata.description,
         explore_links:,
         follow_links: [
-          Willamette.link(icon: "rss", title: "Newsfeed", url: "/feed.xml"),
-          Willamette.link(icon: "bluesky", icon_family: "brands", title: "@myblue", url: "https://bsky.social"),
+          Willamette.link(icon: "message", title: "Contact us", url: "mailto:mrlit@merck.com"),
+          # Willamette.link(icon: "bluesky", icon_family: "brands", title: "@myblue", url: "https://bsky.social"),
         ],
-        subscribe: true,
+        subscribe: false,
         see_also_links: [
-          Willamette.link(icon: "file-lines", title: "Another Project", url: "#/another"),
-          Willamette.link(icon: "keyboard", title: "Personal Journal", url: "#/journal"),
+          Willamette.link(icon: "laptop", title: "mrlit.merck.com", url: "https://mrlit.merck.com"),
+          Willamette.link(icon: "person", title: "MRL IT MS Teams", url: "https://www.dailyzen.com"),
         ]
       )
     end
