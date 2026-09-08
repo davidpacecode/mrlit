@@ -27,6 +27,8 @@ layout: default
 
 ----
 
+<%= render Shared::AgentComponent.new() %>
+
 You can learn more about how to build and deploy your new website by reading the [Bridgetown documentation](https://www.bridgetownrb.com/docs).
 
 You can add some [plugins](https://www.bridgetownrb.com/plugins/) to get started quickly or [write your own](https://www.bridgetownrb.com/docs/plugins) to extend the functionality of your site.
